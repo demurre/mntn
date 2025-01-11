@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--primary-text-color);
+  margin: 30px;
+
+  h3 {
+    color: var(--secondary-color);
+  }
+
+  div {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+  }
+
+  p {
+    font-size: var(--font-size-m);
+  }
+
+  img {
+    width: 25%;
+    height: 25%;
+  }
+
+  a {
+    margin-top: 5px;
+  }
+}

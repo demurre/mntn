@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--primary-text-color);
+  margin: 30px;
+
+  p {
+    font-size: var(--font-size-m);
+    font-weight: bold;
+  }
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: var(--margin);
+}

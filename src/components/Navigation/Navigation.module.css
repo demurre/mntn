@@ -1,0 +1,49 @@
+.sideNav {
+  position: fixed;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progressLine {
+  position: relative;
+  width: 2px;
+  background-color: #b2b2b2;
+  height: 200px;
+}
+
+.progressIndicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  background-color: var(--primary-text-color);
+  transition: height 0.3s ease;
+}
+
+.navLink {
+  position: relative;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.active .sectionName {
+  color: var(--primary-text-color);
+  font-weight: bold;
+}
+
+.sectionName {
+  margin-left: 10px;
+  font-size: var(--font-size-s);
+  color: #b2b2b2;
+}
+
+.navLink:hover .sectionName {
+  color: var(--primary-text-color);
+}
