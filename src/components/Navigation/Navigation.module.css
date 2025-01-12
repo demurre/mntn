@@ -47,3 +47,9 @@
 .navLink:hover .sectionName {
   color: var(--primary-text-color);
 }
+
+@media (max-width: 768px) {
+  .sideNav {
+    display: none;
+  }
+}

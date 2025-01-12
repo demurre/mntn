@@ -32,3 +32,9 @@ a {
 a:hover {
   color: #b2b2b2;
 }
+
+/* @media (max-width: 768px) {
+  * {
+    overflow: auto;
+  }
+} */

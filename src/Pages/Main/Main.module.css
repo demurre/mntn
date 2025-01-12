@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("mount.jpg");
+    url("/mount.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,4 +35,20 @@
   align-items: center;
   height: 100vh;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .main-content {
+    h1 {
+      font-size: var(--font-size-m);
+    }
+
+    p {
+      font-size: var(--font-size-s);
+    }
+  }
 }

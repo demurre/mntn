@@ -33,3 +33,24 @@
     margin-top: 5px;
   }
 }
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+    padding: 0 15px;
+
+    div {
+      margin: 10px 0;
+      width: 100%;
+    }
+
+    img {
+      width: 50%;
+      margin-bottom: 10px;
+      max-width: 100%;
+    }
+  }
+}
