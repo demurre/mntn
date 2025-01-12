@@ -1,9 +1,8 @@
-import "./App.css";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Navigation from "./components/Navigation/Navigation";
-import Social from "./components/Social/Social";
-import Main from "./Pages/Main/Main";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Navigation from "./components/Navigation";
+import Social from "./components/Social";
+import Main from "./Pages/Main";
 
 function App() {
   return (
