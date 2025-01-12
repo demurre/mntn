@@ -1,14 +1,12 @@
 .header {
+  position: absolute;
+  width: 100%;
+  padding: 20px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: var(--primary-text-color);
-  margin: 30px;
-
-  p {
-    font-size: var(--font-size-m);
-    font-weight: bold;
-  }
+  background-color: none;
 }
 
 nav ul {

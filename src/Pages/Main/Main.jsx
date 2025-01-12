@@ -4,7 +4,7 @@ import { faArrowDown, faMinus } from "@fortawesome/free-solid-svg-icons";
 import { data } from "../../assets/data";
 import ContentSection from "../../components/ContentSection/ContentSection";
 
-function Hero() {
+function Main() {
   return (
     <div className={styles["main"]}>
       <div id="start" className={styles["main-content"]}>
@@ -27,4 +27,4 @@ function Hero() {
   );
 }
 
-export default Hero;
+export default Main;

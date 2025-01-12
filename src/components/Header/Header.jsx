@@ -1,4 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import styles from "./Header.module.css";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
 
 function Header() {
   return (
@@ -7,17 +9,20 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <a href="equipment">Equipment</a>
+            <a href="#start">Equipment</a>
           </li>
           <li>
-            <a href="about">About us</a>
+            <a href="#start">About us</a>
           </li>
           <li>
-            <a href="blog">Blog</a>
+            <a href="#start">Blog</a>
           </li>
         </ul>
       </nav>
-      <p>Account</p>
+      <a href="#start">
+        <FontAwesomeIcon icon={faUser} />
+        Account
+      </a>
     </div>
   );
 }
